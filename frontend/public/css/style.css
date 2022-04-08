@@ -1,0 +1,458 @@
+
+/* html elements */
+header{
+  background-color: #cefacd;
+  margin: 0rem 15rem;
+
+}
+/* class */
+
+.head{
+  color:#0E74A5;
+  text-align: center;
+  font-size: 6rem;
+  font-family: 'Shippori Antique B1', sans-serif;
+  padding:1rem 10rem 1rem 10rem;
+  margin: 0rem;
+  line-height: 1;
+}
+ .marqueeStyle ul li:nth-child(odd){
+	background-color:lightgrey;
+}
+.marqueeStyle ul li:nth-child(even){
+	background-color:inherit; /*white*/
+}
+.slogen{
+   background-color:rgba(0,0,0,.5);
+   padding: 1rem;
+   text-align: center;
+}
+.patrons-head{
+  font-family:'Sofia',cursive;
+}
+.patrons{
+  background-color:white;
+}
+.heading{
+  font-size:2.5em;
+  text-align:center;
+}
+.contact-img{
+   width:3rem;
+   height:3rem;
+}
+/* IDS */
+#first-img{
+  display:inline-block;
+	width:12.5rem;
+	text-align:right;
+	float:right;
+	height:6.25rem;
+}
+#second-img{
+  display:inline-block;
+  	width:12.5rem;
+  	text-align:left;
+  	float:left;
+  	height:6.25rem;
+}
+#NavBar1{
+   height:2rem;
+
+}
+#NavBar2{
+
+}
+/* feedback */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+
+body {
+    background: #EEEEEE;
+    font-family: 'Hind Siliguri', sans-serif
+}
+
+.card {
+    width: 300px;
+    border: none;
+    border-radius: 15px
+}
+
+.adiv {
+    background: #0063FF;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 12px;
+    height: 46px
+}
+
+.card-img {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+.fas {
+    cursor: pointer
+}
+
+.fa-chevron-left {
+    color: #fff
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: bold
+}
+
+small {
+    font-size: 10px;
+    color: #898989
+}
+
+.form-control {
+    border: none;
+    background: #F6F7FB;
+    font-size: 12px
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background: #F6F7FB
+}
+
+.form-control::placeholder {
+    font-size: 12px;
+    color: #B8B9BD
+}
+
+.btn-primary {
+    background: #0063FF;
+    padding: 4px 0 7px;
+    border: none
+}
+
+.btn-primary:focus {
+    box-shadow: none
+}
+
+.btn-primary span {
+    font-size: 12px;
+    color: #A6DCFF
+}
+
+p.mt-3 {
+    font-size: 11px;
+    color: #B8B9BD;
+    cursor: pointer
+}
+/* login css */
+.login {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[name="PassingYear"] {
+  margin-bottom: 1rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+}
+.form-signin button[name="submit"] {
+  margin-top: 1rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+}
+/* search alumni */
+.alumni-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(252, 244, 244);
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px 0;
+}
+/* card */
+.card-alumni{
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 20px 15px;
+
+}
+.card-top{
+      position: relative;
+      width: 100%;
+      height: 200px;
+  }
+  .card-top img{
+
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+
+  .messege{
+      z-index: 1;
+      margin: 10px 10px;
+      position: absolute;
+      height: 25px;
+      width: 25px;
+      top: 0;
+      right: 0;
+      background-color: rgb(218, 211, 204);
+      border-radius: 20px;
+      padding: 2px 2px;
+  }
+  /* On mouse-over, add a deeper shadow */
+  .card-alumni:hover {
+    box-shadow: 0 8px 16px 10px rgb(233, 193, 193);
+    transform: translate(5px, 20px);
+  }
+  /* Add some padding inside the card container */
+  .card-bottom {
+    padding: 15px 16px;
+    background-color: rgb(32, 38, 56);
+    color: white;
+  }
+  .card-bottom h4 span{
+      font-size: 1.2rem;
+      font-weight: 400;
+      padding-right: 10px;
+
+  }
+  .card-bottom p{
+      margin: 4px 0;
+      font-size: 12px;
+  }
+  .card-bottom div span{
+      font-size: 15px;
+      font-weight: 500;
+      padding-right: 10px;
+  }
+  /* search alumni */
+  .searchAlumni{
+     width: 40%;
+     margin: 20px auto 10px auto;
+
+  }
+  /* EventForm */
+  .form-out{
+    width: 60%;
+    margin: 40px auto;
+}
+.form-in{
+    width: 75%;
+    margin: 30px auto;
+}
+input{
+    width: 100%;
+}
+.form-in h1{
+    text-align: center;
+    margin: 30px 0;
+}
+.event-input input{
+    width: 100%;
+    padding: 0 10px;
+    height: 2rem;
+    border-radius: 8px;
+    margin: 10px 0;
+    border: 1px solid grey;
+}
+.event-input-time{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.event-input-time input{
+    width: 40%;
+    padding: 0 10px;
+    height: 2rem;
+    border-radius: 8px;
+    margin: 10px 10px;
+    border: 1px solid grey;
+}
+.event-input textarea{
+    padding: 5px 10px;
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+    margin: 15px 0;
+}
+.event-input input:hover{
+    box-shadow: 2px 2px 2px 2px rgb(170, 163, 163);
+}
+.event-input textarea:hover{
+    box-shadow: 2px 2px 2px 2px rgb(170, 163, 163);
+}
+.submit-btn-event-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit-btn-event-form button{
+    margin: 20px 0;
+    padding: 3px 10px;
+    font-size: 1.2rem;
+    border-radius: 5px ;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(61, 58, 58);
+}
+.submit-btn-event-form button:hover{
+    background-color: black;
+}
+.add-event-btn{
+  display: flex;
+  justify-content: center;
+margin: 10px 0;
+padding: 2px 8px;
+font-size: 12px;
+/* background-color: black; */
+
+}
+.add-event-btn button{
+   background-color: black;
+   border-radius: 4px;
+   color: white;
+}
+.svg{
+  margin: 0 5px;
+  width:15px;
+  height: 15px;
+}
+/* deleteEvent */
+.delete-event{
+  font-family: Arial;
+  margin: 10px auto;
+}
+
+.delete-event * {
+  box-sizing: border-box;
+}
+
+.delete-event form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+.delete-event form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.delete-event form.example button:hover {
+  background: #0b7dda;
+}
+
+.delete-event form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* single event */
+.single-event{
+    width: 60%;
+    margin: 50px auto;
+    border: 2px solid rgb(146, 155, 233);
+    border-radius: 8px;
+    padding: 8px;
+    background-color: rgb(25, 14, 189);
+    // box-shadow: 5px 5px 7px 7px blueviolet;
+}
+.single-event:hover{
+    box-shadow: 5px 5px 7px 7px blueviolet;
+}
+.single-event-title{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+.single-event-description{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(250, 237, 237);
+    margin: 8px 0;
+    padding: 2px 6px;
+}
+.single-event-guest{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(253, 252, 252);
+    margin: 8px 0;
+    padding: 2px 6px;
+}
+.single-event-schedule{
+    padding: 15px;
+    background-color: rgb(56, 66, 202);
+    border-radius: 8px;
+    color: white;
+    margin: 10px 5px;
+    h1{
+        font-size: 20px;
+        text-align: center;
+        margin: 15px 0;
+    }
+}
+
+.single-event-date-time{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8px;
+    font-size: 1.2rem;
+
+}
+.single-event-date{
+    text-align: center;
+    margin: 0px 8px;
+    p{
+        margin: 8px 0;
+    }
+}
+.single-event-time{
+    text-align: center;
+    margin: 0px 8px;
+    p{
+        margin: 8px 0;
+    }
+}
